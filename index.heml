@@ -7,5 +7,28 @@
   </head>
   <body>
   <h1>ハンドルネーム</h1>
+
+    <h2>About</h2>
+    <p>
+      簡単な自己紹介<br>
+    　簡単なHTMLのプログラミングとJavaScriptのプログラミング。<br>
+      数学。特に公理的集合論などの形式的なもの。<br>
+      その他にも、さまざまな学問に興味がある。
+    </p>
+
+    <h3>Profile</h3>
+    <ul>
+      <li>名前:OZAKI</li>
+      <li>所在地:神奈川県 横浜市</li>
+      <li>得意領域:数学 音楽 プログラミング</li>
+    </ul>
+
+    <h3>Skills</h3>
+    <table>
+      <tr>
+        <th>資格・免許</th>
+        <td>数学検定2級</td>
+      </tr>
+    </table>
   </body>
   </html>
