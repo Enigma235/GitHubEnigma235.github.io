@@ -1,46 +1,302 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-  <meta charset="utf-8">
-  <meta name ="viewport" content="width=device-width",initial-scale=1">
-  <title>ハンドルネームのポートフォリオ</title>
-  </head>
-  <body>
-  <h1>ハンドルネーム</h1>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OZAKI | Mathematical Archive</title>
+</head>
 
-    <h2>About</h2>
-    <p>
-      簡単な自己紹介<br>
-    　簡単なHTMLのプログラミングとJavaScriptのプログラミング。<br>
-      数学。特に公理的集合論などの形式的なもの。<br>
-      その他にも、さまざまな学問に興味がある。
-    </p>
+<body>
 
-    <h3>Profile</h3>
-    <ul>
-      <li>名前:OZAKI</li>
-      <li>所在地:神奈川県 横浜市</li>
-      <li>得意領域:数学 音楽 プログラミング</li>
-    </ul>
-    <h3>お気に入りのサイト</h3>
-<li><a href="http://sites.mathdoc.fr/archives-bourbaki/"Bourbakiのアーカイブ</a></li>
+  <!-- Header -->
+  <header>
+    <h1>OZAKI</h1>
+    <p>Mathematical Archive</p>
 
-<h3>History</h3>
-<p>学歴・アルバイト</p>
-<table>
-<tr>
-<th>2025 年</th>
-<td><a href="https://www.towafood-net.co.jp/">株式会社東和フーズ</a>アルバイト勤務</td>
-</tr>
-    <h3>Skills</h3>
-    <table>
-      <tr>
-        <th>資格・免許</th>
-        <td>数学検定2級</td>
-      </tr>
-<h3>contact</h3>
-<p>連絡先</p>
-<li><a href="algebran2357@gmail.com"
-    </table>
-  </body>
-  </html>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#archive">Archive</a></li>
+        <li><a href="#documents">Documents</a></li>
+        <li><a href="#notes">Notes</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <!-- Introduction -->
+    <section id="about">
+      <h2>Mathematics as a Network</h2>
+
+      <p>
+        数学に関する文献、概念、証明、注釈、参照関係を整理する
+        個人的な数学アーカイブです。
+      </p>
+
+      <p>
+        過去の数学文献を参照しながら、
+        定義や証明の補足、関連する文献、
+        現代的な用法との相違などを記録していきます。
+      </p>
+    </section>
+
+
+    <!-- Mathematics Archive -->
+    <section id="archive">
+      <h2>Archive</h2>
+
+      <p>数学の分野から探す。</p>
+
+      <ul>
+        <li>
+          <a href="#set-theory">Set Theory</a>
+        </li>
+
+        <li>
+          <a href="#category-theory">Category Theory</a>
+        </li>
+
+        <li>
+          <a href="#algebra">Algebra</a>
+        </li>
+
+        <li>
+          <a href="#analysis">Analysis</a>
+        </li>
+
+        <li>
+          <a href="#logic">Logic</a>
+        </li>
+      </ul>
+    </section>
+
+
+    <!-- Set Theory -->
+    <section id="set-theory">
+      <h2>Set Theory</h2>
+
+      <article>
+        <h3>Bourbaki — Théorie des ensembles</h3>
+
+        <p>
+          Bourbakiによる集合論の体系。
+          公理的集合論や数学の形式化に関する資料。
+        </p>
+
+        <ul>
+          <li>
+            <a
+              href="http://sites.mathdoc.fr/archives-bourbaki/"
+              target="_blank"
+              rel="noopener noreferrer">
+              Bourbaki Archives
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              PDF
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              Notes
+            </a>
+          </li>
+        </ul>
+      </article>
+    </section>
+
+
+    <!-- Category Theory -->
+    <section id="category-theory">
+      <h2>Category Theory</h2>
+
+      <article>
+        <h3>Category Theory References</h3>
+
+        <p>
+          圏論に関する文献、定義、定理、関連資料。
+        </p>
+
+        <ul>
+          <li>
+            <a
+              href="https://stacks.math.columbia.edu/"
+              target="_blank"
+              rel="noopener noreferrer">
+              The Stacks Project
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              PDF
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              Notes
+            </a>
+          </li>
+        </ul>
+      </article>
+    </section>
+
+
+    <!-- Algebra -->
+    <section id="algebra">
+      <h2>Algebra</h2>
+
+      <article>
+        <h3>Algebra References</h3>
+
+        <p>
+          代数学に関する文献と参照資料。
+        </p>
+
+        <ul>
+          <li><a href="#">PDF</a></li>
+          <li><a href="#">Notes</a></li>
+          <li><a href="#">References</a></li>
+        </ul>
+      </article>
+    </section>
+
+
+    <!-- Analysis -->
+    <section id="analysis">
+      <h2>Analysis</h2>
+
+      <article>
+        <h3>Analysis References</h3>
+
+        <p>
+          解析学に関する文献と参照資料。
+        </p>
+
+        <ul>
+          <li><a href="#">PDF</a></li>
+          <li><a href="#">Notes</a></li>
+          <li><a href="#">References</a></li>
+        </ul>
+      </article>
+    </section>
+
+
+    <!-- Logic -->
+    <section id="logic">
+      <h2>Logic</h2>
+
+      <article>
+        <h3>Logic References</h3>
+
+        <p>
+          数理論理学、型理論、線形論理などに関する資料。
+        </p>
+
+        <ul>
+          <li><a href="#">PDF</a></li>
+          <li><a href="#">Notes</a></li>
+          <li><a href="#">References</a></li>
+        </ul>
+      </article>
+    </section>
+
+
+    <!-- Documents -->
+    <section id="documents">
+      <h2>Documents</h2>
+
+      <article>
+        <h3>Bourbaki</h3>
+
+        <ul>
+          <li><a href="#">Théorie des ensembles — PDF</a></li>
+          <li><a href="#">Algèbre — PDF</a></li>
+          <li><a href="#">Topologie — PDF</a></li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Other References</h3>
+
+        <ul>
+          <li><a href="#">Paper</a></li>
+          <li><a href="#">Book</a></li>
+          <li><a href="#">Lecture Notes</a></li>
+        </ul>
+      </article>
+    </section>
+
+
+    <!-- Personal Notes -->
+    <section id="notes">
+      <h2>Notes</h2>
+
+      <article>
+        <h3>Recent Notes</h3>
+
+        <ul>
+          <li>
+            <a href="#">
+              Bourbakiの定義に関する注釈
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              古典的な用法と現代的な用法の比較
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              関連する定理・文献への参照
+            </a>
+          </li>
+        </ul>
+      </article>
+    </section>
+
+
+    <!-- Profile -->
+    <section id="profile">
+      <h2>Profile</h2>
+
+      <ul>
+        <li>名前: OZAKI</li>
+        <li>所在地: 神奈川県 横浜市</li>
+        <li>得意領域: 数学・音楽・プログラミング</li>
+        <li>数学: 集合論・圏論・数理論理学など</li>
+      </ul>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contact</h2>
+
+      <p>
+        Email:
+        <a href="mailto:algebran2357@gmail.com">
+          algebran2357@gmail.com
+        </a>
+      </p>
+    </section>
+
+  </main>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 OZAKI Mathematical Archive</p>
+  </footer>
+
+</body>
+</html>
